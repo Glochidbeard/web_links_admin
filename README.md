@@ -12,6 +12,8 @@ Inventory csv: Obtained by going to Plantiful > Production, and then using the T
 
 Catalog csv (Optional but highly recommended): Obtained by going to Plantiful > Catalog, then clicking on the order check view. This brings in information about the availability of certain line items across the nursery, so it's then up to the user on how they disperse the existing inventory. If for example we have a deficit of a given product overall but we have an existing amount of product that could satisfy one order, it will flag this in the 'Caution' status. 
 
+With these files in hand, you can then navigate to the website and upload them where necessary. You also have the ability to upload multiple orders at once. When you click on the Order CSV box in the app, hold down 'Ctrl' and then click as many Orders CSVs as you like! When ready, click 'Generate report'. 
+
 Meanings of Statuses
 1. Ready : We have enough existing available inventory that's in the correct size and meets the quantity demand of the order. Additionally, the total remaining inventory quantity (taking into account all orders placed on that item) is positive. 
 2. Caution : We have enough existing available inventory that's in the correct size and meets the quantity demand of the order. However, the total remaining inventory quantity (taking into account all orders placed on that item) is negative.
