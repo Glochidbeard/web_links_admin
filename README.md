@@ -4,7 +4,7 @@ A complete list of websites/application links for administrative level tasks.
 ## Order check app
 https://orderchecks-production.up.railway.app/ 
 
-This website prompts the user for an inventory and an order. Then, it runs a check against what we have, what we need, and what needs to be propagated. Results are exportable in a .txt format for both the whole check and just the highest priority items. Rough route optimization has been implemented which groups plants of interest as well, so the user doesn't need to walk in inefficient paths. 
+This website prompts the user for an inventory and an order. Then, it runs a check against what we have, what we need, and what needs to be propagated. Results are exportable in a .txt format for the whole order check, a customer facing summary, and just the highest priority action items. Route optimization has been implemented which groups plants of interest as well, so the user doesn't need to walk in inefficient paths. This works best when you have 10 or less stops, but algorithms are actively being researched that optimize this path for more than 10 stops. To use the app, you're going to need two files, with a third strongly recommended. 
 
 Order csv: Obtained by going to Plantiful > Sales > Line items. Then, go to the order check view, and in the search bar, type in the order number of the order you're trying to check. For example; 28176. Then, wait for the view to load, and export the csv when you're done. Importantly, you'll have to rename the order csv to 28176_order.csv. The code reads the numbers associated with the order when it's doing some of the behind the scences work!
 
